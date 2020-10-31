@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--    Custom CSS-->
+    <link rel="stylesheet" href="../css/LandingPage.css" />
+  </head>
+  <body>
+    <!--Preloader-->
+    <div class="preloader" id="preloader"></div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark background-color">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="LandingPage.html">
+        <img src="../assets/logo.svg" alt="Logo" />
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active mx-2">
+            <a class="nav-link mx-3 mt-2" href="LandingPage.html"
+              >HOME <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item mx-3 mt-2">
+            <a class="nav-link" href="#">MAP GUIDE</a>
+          </li>
+          <li class="nav-item mx-3 mt-2">
+            <a class="nav-link" href="resources.html">RESOURCES</a>
+          </li>
+          <li class="nav-item mx-3 mt-2">
+            <a class="nav-link" href="office.html">OFFICE</a>
+          </li>
+          <li class="nav-item mx-3 mt-2">
+            <a class="nav-link" href="gallery.html">GALLERY</a>
+          </li>
+          <li class="nav-item mx-3 mt-2">
+            <a class="nav-link" href="contact-us.html">CONTACT US</a>
+          </li>
+          <li>
+            <div class="btn-group dropleft">
+              <button
+                type="button"
+                class="btn btn-background dropdown-toggle"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <img src="../assets/profile.svg" alt="profile" id="profile" />
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Login</a>
+                <a class="dropdown-item" href="#">Signup</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--CUSTOM SHAPE-->
+    <div class="custom-shape">
+      <img src="../assets/triangleNegative.svg" alt="custom shape" />
+      <!--MAIN HEADING-->
+      <h1 class="main-heading">YOUR GUIDE FOR COLLEGE YEARS</h1>
+    </div>
+
+    <section
+      class="hero-section"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-center"
+    >
+      <h1 class="hero-heading">About</h1>
+      <p class="hero-description">
+        When students come to college, it is very hard to adjust with the new
+        environment and place and to get used to the place. So, this can help
+        new students to locate and get to know about the college better and
+        adapt easily.
+      </p>
+    </section>
+
+    <section
+      class="ideas-section"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-center"
+    >
+      <h1 class="idea-heading">Want to bring your ideas to life?</h1>
+      <p class="hero-description idea-description">
+        Developer life is all about working constructively to find solutions to
+        real-life problems faced by communities. We would love to receive unique
+        ideas from you. The best ones may be nominated as team projects!
+      </p>
+      <p class="quote-credits">
+        "Everything Begins With An Idea." – Earl Nightingale
+      </p>
+      <a class="btn btn-light btn-lg" href="contact-us.html">Contact Us</a>
+    </section>
+
+    <section class="footer" data-aos="flip-down">
+      <h3 class="footer-heading">Made with ❤️ for Open Source Community</h3>
+      <img src="../assets/github.svg" alt="github" class="footer-logo" />
+    </section>
+
+    <div class="offset-9 col-3 col-sm-3 p-3 chatbot" style="background-color: #6f4a8e">
+      <div class="col-12 col-sm-12 d-flex flex-row" id="chatbot">
+        <h2 style="color: #ffffff">ChatBot</h2>
+<!--        <img src="assets/arrow-expand.png" alt="expand" class="ml-auto" />-->
+      </div>
+      <div class="col-12 col-sm-12 chatbotblock" id="main">
+        <div>
+          <input
+            id="input"
+            type="text"
+            placeholder="Ask Question.."
+            autocomplete="off"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Script-->
+    <script>
+      AOS.init();
+    </script>
+
+    <!--Custom Script-->
+    <script src="../javascript/LandingPage.js"></script>
+    <script src="../javascript/chatbot.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
